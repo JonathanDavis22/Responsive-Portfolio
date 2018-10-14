@@ -307,16 +307,82 @@ input [type=submit]:hover {
 
 /* HERE BEGINS THE MEDIA QUERIES */
 
-@media only screen and (max-width: 980px) {
-
-}
-
-@media only screen and (max-width: 768px) {
-    body
-}
-
-@media only screen and (max-width: 640px) {
-    .header {
-        position: fixed;
+@media screen and (max-width: 980px) {
+    body {
+        width: 100%;
     }
-}hi
+}
+
+@media screen and (max-width: 768px) {
+    #aboutMeContainer {
+        width: 78.3%;
+        height: 100%;
+    }
+
+    p {
+        height: 580px;
+    }
+
+    #headerContent {
+        width: 78.3%;
+    }
+
+    .portfolio-image-container {
+        width: 78.3%;
+        height: 1600px;
+    }
+
+    .imgContainer {
+        width: 100%;
+    }
+
+    .text-block2 {
+        top: 465px;
+    }
+
+    #contactForm {
+        width: 78.3%
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* header {
+        position: fixed;
+        width: 100%
+    } */
+
+    #profileImage {
+        height: 260px;
+        width: 370px;
+    }
+
+    .logo {
+        width: 90%;
+    }
+
+    .header-right {
+        width: 80%;
+        float: left;
+    }
+
+    #aboutMeContainer {
+        width: 65.3%;
+        height: 1060px;
+    }
+
+    .portfolio-image-container {
+        width: 76%;
+    }
+
+    p {
+        height: 890px;
+    }
+
+    #headerContent {
+        width: 65.3%;
+    }
+
+    #contactForm {
+        width: 65.3%
+    }
+}
